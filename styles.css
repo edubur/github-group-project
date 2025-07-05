@@ -18,7 +18,7 @@ header {
 	}
 }
 #video_section {
-	border: solid red 2px;
+	/* border: solid red 2px; */
 	background-color: #091f36;
 	display: flex;
 	flex-direction: column;
@@ -35,7 +35,7 @@ header {
 	width: 60%;
 }
 #price_section {
-	background-color: #091f36;
+	background-color: #0f2862;
 	color: antiquewhite;
 	width: 100%;
 	display: flex;
@@ -56,14 +56,15 @@ header {
 	padding-right: 48px;
 }
 #price_section section {
-	border: green solid 2px;
+	/* border: green solid 2px; */
 	display: flex;
 	margin: 24px;
 	padding: 24px;
 	width: 80%;
 }
 #price_container section {
-	border: red solid 2px;
+	/* border: red solid 2px; */
+	background-color: #091f36;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -84,8 +85,39 @@ header {
 }
 #price_section section button {
 	margin: 24px;
-	padding: 4px;
+	padding: 12px;
 	background-color: antiquewhite;
-	height: 48px;
+	height: auto;
 	font-size: 2rem;
+}
+footer {
+	background-color: #091f36;
+	width: 100%;
+	padding: 48px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: antiquewhite;
+}
+footer h2 {
+	font-size: 4rem;
+	margin-bottom: 24px;
+}
+footer nav ul {
+	display: flex;
+	margin-bottom: 24px;
+}
+footer nav a {
+	list-style: none;
+	padding: 8px;
+	font-size: 2rem;
+}
+footer section {
+	display: flex;
+	align-items: center;
+	margin-bottom: 48px;
+}
+footer section img {
+	height: 60px;
+	margin: 12px;
 }
