@@ -33,7 +33,7 @@ header {
         flex-direction: column;
         justify-content: space-between;
         & .home-box-left-top-title {
-            background-color: #98a5b9;;
+            background-color: #98a5b9;
             margin: 20px;
             padding: 10px 15px;
             text-align: center;
@@ -63,6 +63,34 @@ header {
         }
     }
 
+}
+.companies {
+	background-color: #4f5f76;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	& .companies-top-part {
+		display: flex;
+		align-self: center;
+		margin: 30px 0 0 0;
+	}
+	& .companies-bottom-part {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin: 30px 120px;
+		gap: 30px;
+		margin: 20px 100px;
+		& img {
+			width: 200px;
+			height: auto;
+			min-width: 50px;
+			background-color: #98a5b9;
+			padding: 5px;
+			border-radius: 3px;
+			border: 2px solid #091f36;
+		}
+	}
 }
 
 #video_section {
