@@ -30,6 +30,7 @@ header {
 	font-size: 4rem;
 	color: antiquewhite;
 	margin-bottom: 48px;
+	text-align: center;
 }
 #video_section video {
 	width: 60%;
@@ -87,6 +88,10 @@ header {
 	margin: 24px;
 	padding: 12px;
 	background-color: antiquewhite;
+	border-top: solid 4px #9e363a;
+	border-left: solid 4px #9e363a;
+	border-right: solid 5px #4f5f76;
+	border-bottom: solid 5px #4f5f76;
 	height: auto;
 	font-size: 2rem;
 }
