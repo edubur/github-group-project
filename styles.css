@@ -13,6 +13,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
     & button {
         padding: 5px 10px;
     }
@@ -26,6 +30,7 @@ header {
     justify-content: center;
     height: 300px;
     padding: 30px;
+	margin-top: 70px;
     & .home-box-left {
         background-color: #4f5f76;
         margin: 0px 35px;
