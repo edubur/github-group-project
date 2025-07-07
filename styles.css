@@ -17,6 +17,7 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
+	border-bottom: 1px solid black;
     & button {
         padding: 5px 10px;
     }
@@ -37,12 +38,15 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+		border: 2px solid #091f36;
         & .home-box-left-top-title {
             background-color: #98a5b9;
             margin: 20px;
             padding: 10px 15px;
             text-align: center;
             min-width: 180px;
+			border-top: 1px solid #091f36;
+			border-bottom: 1px solid #091f36;
         }
         & .home-box-left-text {
             margin: 20px;
@@ -56,14 +60,23 @@ header {
     & .home-box-right {
         background-color: #4f5f76;
         border-radius: 30px;
+		border: 2px solid #091f36;
         margin: 0px 70px 0 35px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
+		align-items: center;
         padding: 15px;
-                & button {
+		& img {
+			height: auto;
+			width: auto;
+			max-width: 150px;
+			align-self: center;
+			margin: 20px;
+			border: 2px solid #091f36;}
+        & button {
             align-self: center;
-            margin: 15px;
+            margin: 15px 0 0 0;
             padding: 3px 15px;
         }
     }

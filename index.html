@@ -5,19 +5,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github Group Project</title>
+    <title>Rent-a-Dragon</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="header-button-left">
-            <button type="button">Your cool product</button>
+            <button type="button" onclick=location.href="#price_section">Rent-a-Dragon</button>
         </div>
         <div class="header-button-right">
             <button type="button" onclick=location.href="#home">Home</button>
             <button type="button" onclick=location.href="#features">Features</button>
             <button type="button" onclick=location.href="#price_section">Prices</button>
-            <button type="button" onclick=location.href="#usp"">Try for free</button>
+            <button type="button" onclick=location.href="#price_section">Try for free</button>
         </div>
     </header>
     <main>
@@ -27,15 +27,18 @@
                     #1 Editors Choice App of 2025
                 </div>
                 <div class="home-box-left-text">
-                    <h1>Some catchy line</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <h1>Fantasy Pets.<br>
+						Real Smiles.
+					</h1>
+                    <p>Adventure is only a rental away. </p>
                 </div>
-                <button type="button">Try for free</button>
+                <button type="button" onclick=location.href="#price_section">Try for free</button>
             </div>
             <div class="home-box-right">
-                <h3>Definitely a demo</h3>
-                <p>Lorem ipsum dolor sit amet </p>
-                <button type="button">Continue</button>
+				<img src="https://i.ibb.co/VyFCyny/company-logo.webp" alt="Rent-a-Dragon Logo">
+                <h3>Start your quest.</h3>
+                <p>Rent. Roar. Return.</p>
+                <button type="button" onclick=location.href="#whyus">Continue</button>
             </div>
         </section>
 			<section class="companies">
@@ -101,7 +104,7 @@
 			</section>
 
 <!--- Why choose our app -->
-<section class="why-us">
+<section class="why-us" id="whyus">
   <h2>Why You Should Choose Ember</h2>
   <div class="why-cards">
     <div class="why-item">
@@ -224,9 +227,6 @@
 			</section>
 		</footer>
 	</body>
-        
-        <section>Prices</section>
     </main>
-    <footer>Footer</footer>
 </body>
 </html>
